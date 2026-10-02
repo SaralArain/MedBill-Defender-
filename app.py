@@ -24,7 +24,7 @@ from google.genai import types
 # ----------------------------------------------------------------------------
 st.set_page_config(page_title="MedBill Defender", page_icon="🛡️", layout="wide")
 
-MODELS = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-2.5-flash-lite"]
+MODELS = [MODELS = ["gemini-3.8-flash", "gemini-3.7-flash", "gemini-3.5-flash"]
 MAX_IMAGES = 8
 MAX_TEXT_CHARS = 30000
 
